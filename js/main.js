@@ -11,7 +11,7 @@ let CURRENT_LANG = localStorage.getItem(LANG_KEY) || 'ru';
 const translations = {
   en: {
     // Site elements
-    siteTitle: 'MedicineSeller',
+    siteTitle: 'Eczane',
     searchPlaceholder: 'Search products...',
     allCategories: 'All Categories',
     sort: 'Sort',
@@ -56,7 +56,7 @@ const translations = {
     aiGreeting: 'Hello! I can help you find the right medicine. What are you looking for?',
     
     // Footer
-    copyright: '© 2025 MedicineSeller. Premium Healthcare Solutions.',
+    copyright: '© 2025 Eczane. Premium Healthcare Solutions.',
     
     // Messages
     addedToCart: '{name} × {qty} added to cart',
@@ -105,7 +105,7 @@ const translations = {
   },
   ru: {
     // Site elements
-    siteTitle: 'МедицинскийПродавец',
+    siteTitle: 'Экзане',
     searchPlaceholder: 'Поиск товаров...',
     allCategories: 'Все категории',
     sort: 'Сортировка',
@@ -150,7 +150,7 @@ const translations = {
     aiGreeting: 'Привет! Я могу помочь вам найти подходящее лекарство. Что вы ищете?',
     
     // Footer
-    copyright: '© 2025 МедицинскийПродавец. Премиальные Медицинские Решения.',
+    copyright: '© 2025 Экзане. Премиальные Медицинские Решения.',
     
     // Messages
     addedToCart: '{name} × {qty} добавлено в корзину',
