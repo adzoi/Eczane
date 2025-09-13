@@ -8,6 +8,9 @@ import { AIService } from './ai.js';
 const LANG_KEY = 'medicineSeller-lang';
 let CURRENT_LANG = localStorage.getItem(LANG_KEY) || 'ru';
 
+// Make CURRENT_LANG accessible globally for AI service
+window.CURRENT_LANG = CURRENT_LANG;
+
 const translations = {
   en: {
     // Site elements
